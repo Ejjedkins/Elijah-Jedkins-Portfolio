@@ -1,0 +1,11 @@
+/*Allow Hamburger menu to display if screen size is too small */
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none
+    }  
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
