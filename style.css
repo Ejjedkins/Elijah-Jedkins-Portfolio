@@ -265,3 +265,44 @@ section {
     gap: 1rem
 }
 
+/*About Section*/
+
+#about {
+    position: relative;
+}
+
+#about.section_text_p1 {
+    justify-content: center;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border:black 0.1rem solid;
+    border-color: lightslategray;
+    text-align: center;
+    border-radius: 2rem;
+}
