@@ -375,6 +375,30 @@ section {
 
 /*Content*/
 
+#content {
+    position: relative;
+  }
+
+  .color-container {
+    border-color:green;
+    background:rgb(212, 222, 201)
+  }
+
+  .video-img {
+    border-radius: 2rem;
+    width:70%;
+    height: 70%;
+  }
+
+  .video-title {
+    margin: 1rem;
+    color: black;
+  }
+
+  .video-btn {
+    color: black;
+    border-color: darkgreen;
+  }
 
 
 
