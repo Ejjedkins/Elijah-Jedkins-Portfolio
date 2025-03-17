@@ -347,7 +347,34 @@ section {
   }
 
   /*Projects */
-  
+
+  #projects {
+    position: relative;
+  }
+
+  .color-container {
+    border-color:green;
+    background:rgb(212, 222, 201)
+  }
+
+  .project-img {
+    border-radius: 2rem;
+    width:70%;
+    height: 70%;
+  }
+
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+
+  .project-btn {
+    color: black;
+    border-color: darkgreen;
+  }
+
+/*Content*/
+
 
 
 
