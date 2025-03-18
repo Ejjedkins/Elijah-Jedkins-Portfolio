@@ -373,6 +373,44 @@ section {
     border-color: darkgreen;
   }
 
+  .project-video {
+    width: 100%; /* Make the video fill its container */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Indicate it's interactive */
+}
+
+.project-video::-webkit-media-controls-fullscreen-button {
+    display: block; /* Ensure fullscreen button is visible in Chrome/Safari */
+}
+
+.project-video::-moz-full-screen-button {
+    display: block; /* Ensure fullscreen button is visible in Firefox */
+}
+
+.project-video:-ms-fullscreen-button {
+    display: block; /* Ensure fullscreen button is visible in Edge */
+}
+
+.project-video::--webkit-media-controls-play-button {
+    .project-video::-webkit-media-controls-play-button {
+        background-color: rgba(0, 0, 0, 0.5); 
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 8px;
+        font-size: 1.2em; /* Adjusting the size of the icon */
+        cursor: pointer;
+        filter: grayscale(0%) brightness(100%) contrast(100%);
+      }
+      
+}
+
+/* Example styling for the video container to match the image */
+.article-container {
+    overflow: hidden; /* To contain the video within the rounded corners if you have them */
+    border-radius: 8px; /* Example border-radius if your image had it */
+}
+
 /*Content*/
 
 #content {
